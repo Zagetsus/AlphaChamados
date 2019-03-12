@@ -1,0 +1,1674 @@
+a:link { 
+text-decoration:none; 
+color : #000;
+} 
+
+*{
+	box-sizing : border-box;
+}
+
+/* Estilo pag mural */
+
+.botao-mudar-senha img{
+	border : 0px solid black;
+	border-radius : 100%;
+}
+
+.box-name{
+	border :0px solid black;
+	width : 50%;
+	margin-top : 3%;
+	text-align : center;
+	font-size : 20px;
+	color : #000;
+}
+
+.box-name a{
+	text-decoration:none; 
+	color : #ddd;
+}
+
+.box-name a:hover{
+	color : #000;
+	transition : .5s;
+}
+
+.title-pag-mural{
+	border : 0px solid black;
+	width : 100%;
+	height : 200px;
+	position : relative;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.title-pag-mural p{
+	border : 0px solid black;
+	width : 50%;
+	height : 100px;
+	color : #fff;
+	font-size : 35px;
+	float : left;
+	margin : 50px 0 0 0;
+	padding-left : 5%;
+}
+
+.title-pag-mural img{
+	float : right;
+	margin-right : 5%; 
+}
+
+.box-mural{
+	border : 0px solid black;
+	width : 42%;
+	height : 550px;
+	float : left;
+	position : relative;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	margin : 3% 29% 2% 29%;
+}
+
+.title-mural{
+	border : 0px solid black;
+	width : 100%;
+	height : 70px;
+	float : left;
+}
+
+.title-mural p{
+	color : #fff;
+	font-size : 40px;
+	text-align : center;
+	width : 100%;
+	height : 70px;
+	border : 0px solid black;
+	float : left;
+}
+	
+
+.box-form-mural{
+	border: 0px solid black;
+	width : 94%;
+	height : 440px;
+	margin : 4% 3% 3% 3%;
+	float : left;
+}
+
+.box-input-mural{
+	border : 0px solid black;
+	width : 96%;
+	margin : 2%;
+	height : 120px;
+}
+
+.box-input-mural label{
+	border : 0px solid black;
+	padding : 1% 1% 0 2%;
+	margin : 1%;
+	font-size : 20px;
+}
+
+.box-input-mural input{
+	border : 0px solid black;
+	width : 96%;
+	margin : 2%;
+	height : 60px;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	color : #0066cc;
+	font-size : 20px;
+	padding-left : 2%;
+	padding-right : 2%;
+}
+
+.box-input-mural textarea{
+	border : 0px solid black;
+	max-width : 96%;
+	width : 96%;
+	margin : 2%;
+	max-height : 140px;
+	height : 140px;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	resize: none;
+	color : #0066cc;
+	font-size : 20px;
+	padding-left : 2%;
+	padding-right : 2%;
+}
+
+.box-buttons-mural{
+	border : 0px solid black;
+	width : 94%;
+	margin : 15% 3% 2% 3%;
+	height : 60px;
+	float : left;
+}
+
+.btn-prox-ant{
+	width : 50%;
+	float : left;
+	border : 0px solid black;
+	height : 60px;
+}
+
+.btn-prox-ant input{
+	width : 50%;
+	margin : 0 1% 0 49%;
+	height : 50px;
+	border : 0px solid black;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	color : #fff;
+	font-size : 20px;
+	background-color : #0066cc;
+}
+
+.btn-proximo input{
+	margin : 0 49% 0 1% !important;
+}
+
+ /* Estilo pagina Meus Chamados */
+
+.box-chamados{
+	border: solid black 0px;
+	background: white;
+	height : 820px;
+	margin : 2%;
+	width : 96%;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+.colunas{
+	box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+	position : relative;
+	color : #fff;
+	float : left;
+	padding : 0.7%;
+	width : 100%;
+	height : 150px;
+	font-size : 28px;
+}
+
+
+.iconechamados img{
+	position : relative;
+	float : right;
+	margin-top : -7%;
+	width : 100px;
+	height : 100px;
+}
+
+.num{
+	color : #fff;
+	font-size : 50px;
+}
+
+
+.conteudo{
+	margin : 2% 2% 0 2%;
+	width : 96%;
+	height : 650px;
+	box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+	position : relative;
+	float : left;
+	-webkit-box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+	-moz-box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+	box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+}
+
+.box-btn-chamados{
+	border : 0px solid black;
+	position : relative;
+	width : 25%;
+	height : 60px;
+	float : left;
+	margin : 20px 2% 1% 73%;
+}
+
+.box-btn-submit{
+	width : 96%;
+	margin : 5px 2% 5px 2%;
+	height : 50px;
+	border : 0px solid black;
+}
+
+.box-btn-submit select{
+	float : left;
+	border : 0px solid black;
+	width : 70%;
+	height : 50px;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	font-size : 16px;
+	color : #0b276f;
+}
+
+.box-btn-submit input[type=submit]{
+	float : left;
+	border : 0px solid black;
+	width : 30%;
+	height : 50px;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	font-size : 20px;
+	color : #fff;
+	background-color : #0066cc;
+}
+
+
+/* Estilo pag Alterar user */
+
+.box-alterar-user{
+	border : 0px solid black;
+	width : 50%;
+	margin : 5% 25% 5% 25%;
+	height : 580px;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.title-alterar-user{
+	width : 100%;
+	height : 100px;
+}
+
+.title-alterar-user p{
+	border : 0px solid black;
+	color : #fff;
+	font-size : 30px;
+	float : left;
+	width : 50%;
+	height : 50px;
+	margin : 25px 0 25px 0;
+	padding-left : 5%; 
+}
+
+.title-alterar-user img{
+	float : right;
+	margin : 0 10% 0 0;
+}
+
+.box-form-alterar-user{
+	border : 0px solid black;
+	width : 94%;
+	margin : 3%;
+	height : 430px;
+	-webkit-box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+	-moz-box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+	box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+}
+
+.txt-alterar-senha{
+	border : 0px solid black;
+	width : 94%;
+	margin : 3%;
+	float : left;	
+}
+
+.txt-alterar-senha a{
+	width : 30%;
+	margin : 0 0 0 70%;
+	border : 0px solid black;
+	text-align : center;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	background-color : #0066cc;
+	color : #fff;
+	height : 30px;
+	padding-top : .5%;
+}
+
+.box-inputs-senha{
+	border :0px solid black;
+	width : 94%;
+	margin : 1% 3% 1% 3%;
+	height : 50px;
+	float : left;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.box-inputs-senha p{
+	width : 40%;
+	height : 50px;
+	background-color : #0066cc;
+	font-size : 20px;
+	color : #fff;
+	padding : 1%;
+	float : left;
+}
+
+.box-inputs-senha input{
+	width : 60%;
+	height : 50px;
+	font-size : 20px;
+	color : #0066cc;
+	padding : 1%;
+	float : left;
+}
+
+.box-btn-alterar-senha{
+	border : 0px solid black;
+	float : left;
+	width : 94%;
+	margin : 3%;
+	height : 50px;
+}
+
+.box-btn-alterar-senha p{
+	border : 0px solid black;
+	float : left;
+	width : 50%;
+	height : 50px;
+}
+
+.box-btn-alterar-senha input{
+	border : 0px solid black;
+	width : 40%;
+	height : 50px;
+	background-color : #0066cc;
+	font-size : 16px;
+	color : #fff;
+	margin : 0 1% 0 1%;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+#btn-float-right{
+	float : right;
+}
+
+
+/* ----- Footer ----- */
+.copyright {
+    text-align: center;
+    padding: 20px 0;
+    padding-top: 25px;
+	box-shadow: 2px 2px 2px 2px;
+	opacity : 0.5;
+}
+.copyright p {
+	text-align : center;
+	bottom : 0;
+	font-family: 'tahoma';
+    font-size: 14px;
+	color:#000;
+    line-height: -webkit-calc(24/14);
+    line-height: -moz-calc(24/14);
+    line-height: calc(24/14);
+	transition: 1s;
+}
+
+.label{
+	position : relative;
+	width : 100%;
+	padding : 1%;
+	background : #000;
+	border : 1px solid tranparent;
+	color : #fff;
+}
+
+.label p{
+	margin-left : 40%;
+	margin-right : 40%;
+	text-align : center;
+}
+
+.chamados{
+	position : relative;
+	width : 100%;
+	color : #000;
+	border : 1px solid transparent;
+}
+.chamados p{
+	margin : 1% 30% 20% 30%;
+	text-align : center;
+	font-size : 25px;
+	font-family : 'century';
+}
+
+/* Estilo Pag Abrir Chamados*/
+
+.box-abrir-chamados{
+	width : 96%;
+	margin : 2%;
+	border : 0px solid black;
+	height : 1000px;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.title-abrir-chamados{
+	width : 100%;
+	float : left;
+	position : relative;
+	height : 100px;
+}
+
+.title-abrir-chamados p{
+	border : 0px solid black;
+	width : 50%;
+	height : 60px;
+	margin : 20px 0 20px 0;
+	font-size : 30px;
+	color : #fff;
+	float : left;
+	padding : 1%;
+}
+
+.title-abrir-chamados img{
+	border : 0px solid black;
+	margin : 0 5% 0 80%;
+}
+
+.box-form-abrir-chamado{
+	border : 0px solid black;
+	width : 96%;
+	margin : 2%;
+	height : 850px;
+	position : relative;
+	float : left;
+	-webkit-box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+	-moz-box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+	box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+}
+
+.height-1000{
+	height : 1000px !important;
+}
+
+
+/* Estilização de tabelas */
+
+#linha1{
+	color : white;
+	text-align : center;
+	width : 100%;
+}
+
+.visulizar{
+	border : solid black 0;
+	padding : 5px;
+	color : #fff;
+	background: url(imagens/lupa.png);
+	border-radius : 100%;
+}
+
+
+.corA{
+	background-color : #00aeef;
+}
+
+.corB{
+	background-color : #0066CC;
+}
+
+.corC{
+	background-color : #0b276f;
+}
+
+.tabela td{
+	padding : 2px;
+	margin : 0;
+	text-align : center;
+	font-size : 13px;
+	overflow : auto;
+	border-top : solid #ddd 1px;
+	border-bottom : solid #ddd 1px;
+	box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+	text-overflow: ellipsis;
+}
+
+/* Estilização pag visualizar usuario */
+
+.box-usuario-left{
+	width : 50%;
+	float : left;
+	height : 850px;
+	border : 0px solid black;
+	position : relative;
+}
+
+.box-title-usuario{
+	border : 0px solid black;
+	width : 100%;
+	height : 250px;
+	-webkit-box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+	-moz-box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+	box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+}
+
+.icone-title-usuario{
+	border : 0px solid black;
+	width : 40%;
+	height : 250px;
+	float : left;
+}
+
+.title-usuario{
+	border : 0px solid black;
+	width : 60%;
+	height : 250px;
+	float : left;
+}
+
+.icone-title-usuario img{
+	border : 0px solid black;
+	width : 70%;
+	height : 200px;
+	margin : 5% 15% 0 15%;
+	border-radius : 100%;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+/* Estiização pagina Novo Usuario*/
+
+.box-novo-user{
+	border-top: solid rgb(00,00,00, 0.1) .1px;
+	border-right: solid rgb(00,00,00, 0.1) .1px;
+	border-radius : 5px 5px 5px 0;
+	background: #fff;
+	width : 48%;
+	margin : .5% 26% .5% 26%;
+	height : 850px;
+	position : relative;
+	box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+	-webkit-box-shadow: -9px 10px 38px -6px rgba(0,0,0,0.3);
+	-moz-box-shadow: -9px 10px 38px -6px rgba(0,0,0,0.3);
+	box-shadow: -9px 10px 38px -6px rgba(0,0,0,0.3);
+}
+
+.title-novo-user{
+	background-color : #0066cc;
+	width : 90%;
+	margin-top : 30px;
+	height : 100px;
+	position : relative;
+	box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+	-webkit-box-shadow: 9px 11px 14px -7px rgba(0,0,0,0.24);
+	-moz-box-shadow: 9px 11px 14px -7px rgba(0,0,0,0.24);
+	box-shadow: 9px 11px 14px -7px rgba(0,0,0,0.24);
+	background: rgba(24,88,226,1);
+	background: -moz-linear-gradient(45deg, rgba(24,88,226,1) 0%, rgba(24,88,226,1) 44%, rgba(0,68,194,1) 75%, rgba(0,68,194,1) 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(24,88,226,1)), color-stop(44%, rgba(24,88,226,1)), color-stop(75%, rgba(0,68,194,1)), color-stop(100%, rgba(0,68,194,1)));
+	background: -webkit-linear-gradient(45deg, rgba(24,88,226,1) 0%, rgba(24,88,226,1) 44%, rgba(0,68,194,1) 75%, rgba(0,68,194,1) 100%);
+	background: -o-linear-gradient(45deg, rgba(24,88,226,1) 0%, rgba(24,88,226,1) 44%, rgba(0,68,194,1) 75%, rgba(0,68,194,1) 100%);
+	background: -ms-linear-gradient(45deg, rgba(24,88,226,1) 0%, rgba(24,88,226,1) 44%, rgba(0,68,194,1) 75%, rgba(0,68,194,1) 100%);
+	background: linear-gradient(45deg, rgba(24,88,226,1) 0%, rgba(24,88,226,1) 44%, rgba(0,68,194,1) 75%, rgba(0,68,194,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1858e2', endColorstr='#0044c2', GradientType=1 );
+}
+
+.title-novo-user p{
+	padding : 2%;
+	color : #fff;
+	font-size : 30px;
+	font-weight : bold;
+}
+
+.icone-novo-user img{
+	position : relative;
+	float : right;
+	margin-top : -7%;
+	margin-right : 2%;
+	width : 60px;
+	height : 60px;
+}
+
+.box-form-novo-user{
+	border : 0px solid black;
+	width : 90%;
+	height : 650px;
+	margin : 40px 5% 5% 5%;
+	box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+	-webkit-box-shadow: inset 3px 10px 38px -6px rgba(0,0,0,0.07);
+	-moz-box-shadow: inset 3px 10px 38px -6px rgba(0,0,0,0.07);
+	box-shadow: inset 3px 10px 38px -6px rgba(0,0,0,0.07);
+}
+
+.form-novo-user p{
+	border : 0 solid black;
+	width : 95%;
+	margin : 0 2.5% 0 2.5%;
+	color : #0b276f;
+	font-size : 18px;
+	padding : 1%;
+	opacity : .8;
+}
+
+
+.form-novo-user select{
+	width : 100%;
+	border : solid rgba(00,00,00,.3) 1px; 
+	margin : 1% 0 1% 0;
+	padding : 1%;
+}
+.form-novo-user input[type=text]{
+	border : solid #ddd 1px;
+	margin : 1% 1% 1% 0;
+	width : 100%;
+	padding : 1%;
+	border-radius : 5px;
+}
+
+.form-novo-user input[type=text]:hover{
+	border : solid 1px #6c8fdf;
+	transition : .5s;
+}
+
+.form-novo-user input[type=password]:hover{
+	border : solid 1px #6c8fdf;
+	transition : .5s;
+}
+
+.form-novo-user select:hover{
+	border : solid 1px #6c8fdf;
+	transition : .5s;
+}
+
+.form-novo-user textarea{
+	width : 100%;
+	height : 80px;
+	max-height : 80px;
+	padding : 1%;
+	border : inset rgba(00,00,00,.3) 1px;
+}
+.form-novo-user input[type=submit]{
+	border : 0px solid black;
+	width : 130px;
+	color : #fff;
+	height : 40px;
+	background-color : #0066cc;
+	margin : 3.5%;
+	border-radius : 5px;
+	font-size : 16px;
+}
+.form-novo-user input[type=number]{
+	width : 12%;
+	border : solid rgba(00,00,00,.3) 1px;
+}
+
+.form-novo-user input[type=password]{
+	border : solid #ddd 1px;
+	margin : 1% 1% 1% 0;
+	width : 100%;
+	padding : 1%;
+	border-radius : 5px;
+}
+
+.box-select {
+	border : 0px solid black;
+	height : 80px;
+}
+
+.input-left{
+	float : left;
+	width : 49%;
+	margin-left : 1%;
+	padding : 1%;
+	position : relative;
+}
+.input-left select{
+	padding : 2%;
+	border : solid #ddd 1px;
+	border-radius : 5px;
+}
+
+/* Estiizaçõ validação de dados */
+
+.recebedados{
+	font-size : 16px;
+	color : red;
+	border : 0px solid black;
+	text-align : center;
+}
+
+.recebedados1{
+	font-size : 16px;
+	color : red;
+	border : 0px solid black;
+	text-align : center;
+}
+
+.recebedados-login{
+	font-size : 15px;
+	color : red;
+}
+
+.box-recebedados{
+	border : 0px solid black;
+	width : 20%;
+	margin : 0 40% 0 40%;
+	padding : none;
+}
+
+/* Estilização pagina gerenciar-usuarios */
+
+.box-geren-problemas{
+	border : 0px solid black;
+	width : 96%;
+	margin : 2%;
+	height : 1200px;
+	position : relative;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.box-problemas{
+	border : 0px solid black;
+	float : left;
+	height : 500px;	
+}
+
+.box-left-60{
+	width : 100%;
+}
+.box-left-40{
+	width : 40%;
+}
+
+.box-tabela-problemas{
+	border : 0px solid black;
+	width : 94%;
+	margin : 3%;
+	height : 450px;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	
+}
+
+.title-novo-problema{
+	border : 0px solid black;
+	width : 96%;
+	margin : 2% 2% 0 2%;
+	height : 80px;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	color : #fff;
+	font-size : 20px;
+	padding : 2%;
+}
+
+.form-problemas{
+	border : 0px solid black;
+	width : 96%;
+	margin : 0 2% 2% 2%;
+	height : 420px;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.box-inputs-problemas{
+	border : 0px solid black;
+	width : 96%;
+	height : 50px;
+	margin : 2% 2% 2% 2%;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.height-100px{
+	height : 100px !important;
+}
+
+.text-area-problema{
+	width : 65%;
+	resize : none;
+	color : #0066cc;
+	padding : 1% 0 0 1%;
+	font-size : 16px;
+}
+
+.tabela tr td{
+
+}
+
+.box-inputs-problemas p{
+	width : 35%;
+	border : 0px solid black;
+	background-color : #0066cc;
+	height : 50px;
+	color : #fff;
+	font-size : 18px;
+	float : left;
+	padding : 1%;
+}
+.box-inputs-problemas input{
+	width : 65%;
+	height : 50px;
+	color : #0066cc;
+	font-size : 18px;
+	float : left;
+	padding-left : 1%
+}
+
+.box-inputs-problemas select{
+	width : 65%;
+	height : 50px;
+	color : #0066cc;
+	font-size : 18px;
+	float : left;
+	padding-left : 1%;
+	border : none;
+}
+
+.form-problemas input[type=submit]{
+	width : 20%;
+	height : 40px;
+	background-color : #0066cc;
+	color : #fff;
+	float : right;
+	margin : 5% 40% 0 40%;
+	text-align : center;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+
+.box-cadastrar-tempo{
+	border : 0px solid black;
+	width : 96%;
+	margin : 2%;
+	float : left;
+	height : 500px;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.box-tempo-solucao{
+	border : 0px solid black;
+	height : 400px;
+	float : left;
+}
+
+.tempo-width-70{
+	width : 60%;
+}
+
+.tempo-width-30{
+	width : 40%;
+}
+
+.box-tabela-tempo{
+	border : 0px solid black;
+	width : 94%;
+	margin : 3%;
+	height : 350px;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.box-inputs-tempo{
+	border : 0px solid black;
+	width : 92%;
+	margin : 4%;
+	height : 250px;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.title-cadastrar-tempo{
+	border : 0px solid black;
+	width : 100%;
+	height : 100px;
+	color : #fff;
+	font-size : 22px;
+	padding : 4%;
+}
+/* Box da tabea de usuarios*/
+
+.box-gerenciar-usuarios{
+	border : black 0px solid;
+	width : 96%;
+	height : 700px;
+	margin : 2%;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	position : relative;
+	box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+}
+
+.title-usuarios{
+	border : solid #0066cc 1px;
+	background-color : #0066CC;
+	width : 100%;
+	position : relative;
+	height : 100px;
+	box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+}
+
+.title-usuarios p{
+	color : #fff;
+	padding : 1%;
+	font-size : 25px;
+}
+
+.icone-geren-user img{
+	position : relative;
+	float : right;
+	margin-top : -5%;
+	margin-right : 2%;
+	width : 90px;
+	height : 90px;
+}
+
+.conteudo-users{
+	border : black solid 0px;
+	position : relative;
+	box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+	margin : 50px 1% 50px 1%;
+	width : 98%;
+	height : 500px;
+	-webkit-box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+	-moz-box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+	box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+}
+
+.tabela-users{
+	
+}
+
+/* Box departamentos */
+
+.box-geren-departamentos{
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	position : relative;
+	box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+	border : 0px solid black;
+	width : 96%;
+	margin : 2%;
+	height : 750px;
+}
+
+.title-cadastrar-chamados{
+	border : 0px solid black;
+	width : 100%;
+	height : 100px;
+	box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+	background-color : #0048cc;
+}
+
+.title-cadastrar-chamados p{
+	color : #fff;
+	padding : 1%;
+	font-size : 25px;
+}
+
+.title-usuarios p{
+	color : #fff;
+	padding : 1%;
+	font-size : 25px;
+}
+
+.icone-cadastrar-chamados img{
+	position : relative;
+	float : right;
+	margin-top : -4.5%;
+	margin-right : 2%;
+	width : 80px;
+	height : 80px;
+}
+
+.icone-geren-user img{
+	position : relative;
+	float : right;
+	margin-top : -5%;
+	margin-right : 2%;
+	width : 90px;
+	height : 90px;
+}
+
+.cadastrar-chamados-left{
+	border : 0px solid black;
+	width : 47%;
+	-webkit-box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+	-moz-box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+	box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+	box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+	height : 600px;
+	margin : 1.5%;
+	position : relative;
+	float : left;
+}
+
+.title-unidades{
+	border : 0px solid black;
+	width : 96%;
+	margin-left : 2%;
+	margin-top : 3%;
+	height : 50px;
+	position : relative;
+	padding : 1.5%;
+	font-size : 20px;
+	color : #fff;
+	-webkit-box-shadow: -3px 10px 30px -7px rgba(0,0,0,0.21);	
+	-moz-box-shadow: -3px 10px 30px -7px rgba(0,0,0,0.21);
+	box-shadow: -3px 10px 30px -7px rgba(0,0,0,0.21);
+}
+
+.box-tabela{
+	overflow: auto;
+	width: 96%;
+    height: 250px;
+	margin : 2%;
+	border : 0px solid black;
+	-webkit-box-shadow: -3px 10px 30px -7px rgba(0,0,0,0.21);	
+	-moz-box-shadow: -3px 10px 30px -7px rgba(0,0,0,0.21);
+	box-shadow: -3px 10px 30px -7px rgba(0,0,0,0.21);
+}
+
+.box-inserir-unidade{
+	border : 0px solid black;
+	width : 96%;
+	margin : 4% 2% 2% 2%;
+	height : 250px;
+	-webkit-box-shadow: -3px 10px 30px -7px rgba(0,0,0,0.21);	
+	-moz-box-shadow: -3px 10px 30px -7px rgba(0,0,0,0.21);
+	box-shadow: -3px 10px 30px -7px rgba(0,0,0,0.21);
+}
+
+.title-inserir-unidade{
+	border : 0px solid black;
+	width : 100%;
+	height : 60px;
+	-webkit-box-shadow: -3px 10px 30px -7px rgba(0,0,0,0.21);	
+	-moz-box-shadow: -3px 10px 30px -7px rgba(0,0,0,0.21);
+	box-shadow: -3px 10px 30px -7px rgba(0,0,0,0.21);
+	position : relative;
+	padding : 2%;
+	font-size : 20px;
+	color : #fff;
+}
+
+.form-inserir-unidade{
+	border : 0px solid black;
+	width : 100%;
+	margin : 1% 0 1% 0;
+	position : relative;
+	height : 90px;
+	box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+}
+
+.inputs-unidades{
+	border : 0px solid black;
+	width : 84%;
+	position : relative;
+	height : 50px;
+	margin : 20px 8% 0 8%;
+	float : left;
+	-webkit-box-shadow: -3px 10px 30px -7px rgba(0,0,0,0.21);	
+	-moz-box-shadow: -3px 10px 30px -7px rgba(0,0,0,0.21);
+	box-shadow: -3px 10px 30px -7px rgba(0,0,0,0.21);
+}
+
+.inputs-unidades input[type=text]{
+	width : 79%;
+	float : left;
+	position : relative;
+	height : 40px;
+	margin-left : 1%;
+	margin-top : 5px;
+	margin-bottom : 5px;
+	border : .5px solid #fff;
+	font-size : 16px;
+	color : #45464a;
+	padding-left : 1%;
+}
+
+.inputs-unidades input[type=submit]{
+	float : left;
+	border : .5px solid #0066cc;
+	font-size : 16px;
+	background-color : #0066cc;
+	color : #fff;
+	width : 19%;
+	margin-right : 1%;
+	height : 41px;
+	margin-top : 5px;
+	margin-bottom : 5px;
+}
+
+.inputs-unidades input[type=submit]:hover{
+	background-color : #0b276f;
+	transition : .5s;
+}
+
+.inputs-unidades input[type=text]:focus{
+	color : #0b276f;
+	transition : .5s;
+}
+
+
+/* Estiização chamado aberto */
+
+.title-chamado-aberto{
+	border : 0px solid black;
+	background-color : #0066cc;
+	width : 100%;
+	height : 100px;
+	box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.icone-chamado-aberto img{
+	border : 0px solid black;
+	position : relative;
+	float : right;
+	width : 100px;
+	height : 100px;
+}
+
+.botao-voltar{
+	border : solid black 0px;
+	width : 10%;
+	height : 100px;
+	float : left;
+	box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+}
+
+.btn-voltar{
+	border : 0px solid black;
+	width : 60px;
+	height : 60px;
+	background-color : #0066ff;
+	font-size : 20px;
+	color : #fff;
+	margin-top : 15%;
+	margin-left : 15%;
+	-webkit-box-shadow: inset 26px -34px 67px -30px rgba(0,0,0,0.38);
+	-moz-box-shadow: inset 26px -34px 67px -30px rgba(0,0,0,0.38);
+	box-shadow: inset 26px -34px 67px -30px rgba(0,0,0,0.38);
+	border-radius : 100%;
+}
+
+.btn-voltar img{
+	border : 0px solid black;
+	position : relative;
+	margin : 10px;
+}
+
+.btn-voltar:hover{
+	transition : 1s;
+	-webkit-box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+	-moz-box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+	box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+}
+
+.box-title-chamado{
+	border : 0px solid black;
+	width : 100%;
+	height : 80px;
+	margin-top : 5%;
+	background-color : #fff;
+	box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+}
+
+
+
+.title-left{
+	border-right : 2px solid #0066cc;
+	width : 20%;
+	margin : 20px 0 20px 2%;
+	height : 40px;
+	float : left;
+	position : relative;
+	background-color : #fff;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.title-right{
+	border-right : 2px solid #0066cc;
+	width : 70%;
+	margin : 20px 0 20px 2%;
+	height : 40px;
+	float : left;
+	position : relative;
+	background-color : #fff;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.box-dados{
+	position : relative;
+	background-color : #fff;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	margin-top : 2%;
+	border-right : 2px solid #0066cc;
+}
+
+.box-dados p{
+	border : 0px solid black;
+	height : 40px;
+	width : 96%;
+	margin : 0 2% 0 2%;
+	color : #0066cc;
+	font-size : 16px;
+	box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;	 
+}
+
+.height-1150{
+	height : 1150px !important;
+}
+
+.width-100{
+	height : 40px;
+	width : 92%;
+	margin-left : 2%;
+	padding : 1%;
+}
+
+.width-40{
+	width : 45%;
+	margin-left : 2%;
+	padding-left: 2%;
+	padding-top: 1%;
+	height : 40px;
+}
+
+.height-150{
+	height : 150px;
+	width : 92%;
+	margin-left : 2%;
+	padding : 1%;
+}
+
+.float-left{
+	float : left;
+}
+
+.btn-fechar{
+	border : 0px solid black;
+	width : 40%;
+	height : 80px;
+	background-color : #0066ff;
+	font-size : 20px;
+	color : #fff;
+	margin : 5% 0 5% 35%;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	border-radius : 100%;
+}
+
+.btn-fechar img{
+	border : 0px solid black;
+	position : relative;
+	margin : 10px;
+}
+
+/* Estilização page relatorio */
+
+.box-gerar-relatorio{
+	border : 0px solid black;
+	width : 70%;
+	margin : 2% 15% 2% 15%;
+	height : 800px;
+	position : relative;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.height-menor{
+	height : 650px !important;
+}
+
+.title-gerar-relatorio{
+	border : 0px solid black;
+	position : relative;
+	background-color : #0066CC;
+	width : 100%;
+	height : 100px;
+	float : left;
+}
+
+.title-gerar-relatorio p{
+	border : 0px solid black;
+	width : 50%;
+	height : 60px;
+	margin : 20px 0 20px 0;
+	font-size : 30px;
+	color : #fff;
+	float : left;
+	padding : 1%;
+}
+
+.title-gerar-relatorio img{
+	border : 0px solid black;
+	margin : 0 5% 0 80%;
+}
+
+.box-form-relatorio{
+	border : 0px solid black;
+	float : left;
+	width : 96%;
+	margin : 2%;
+	height : 650px;
+	-webkit-box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+	-moz-box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+	box-shadow: inset -8px 9px 29px -7px rgba(0,0,0,0.2);
+}
+
+.box-gerar-relatorio-2{
+	width : 50%;
+	margin : 5% 25% 5% 25%;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	height : 380px;
+}
+
+.height-menor-2{
+	height : 480px !important;
+}
+
+.height-menor-3{
+	height : 220px !important;
+}
+
+.box-inputs-relatorio{
+	border : 0px solid black;
+	width : 96%;
+	margin : 2%;
+}
+
+.box-inputs-h-50px{
+	height : 50px;
+}
+
+.box-inputs-h-100px{
+	height : 100px;
+}
+
+.label-30{
+	float : left;
+	border : 0px solid black;
+	width : 30%;
+	color : #fff;
+	padding: 1%;
+	font-size : 20px;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.labelh-50{
+	height : 50px;
+}
+
+.labelh-100{
+	height : 100px;
+}
+
+.botao-submit{
+	width : 20%;
+	margin : 0 40% 0 40%;
+	height : 50px;
+	font-size : 20px;
+	color : #fff;
+	float : right;
+	border : 0px solid black;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.textarea-style textarea{
+	max-width : 70%;
+	width : 70%;
+	max-height : 100px;
+	height : 100px;
+	float : left;
+	border : 0px solid black;
+	color : #0b276f;
+	padding: 1%;
+	font-size : 20px;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.input-text-style input{
+	height : 50px;
+	float : left;
+	border : 0px solid black;
+	color : #0b276f;
+	padding: 1%;
+	font-size : 20px;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.input-text-70 input{
+	width : 70%;
+}
+
+.select-style select{
+	height : 50px;
+	float : left;
+	border : 0px solid black;
+	color : #0b276f;
+	padding: 1%;
+	font-size : 20px;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+.select-40 select{
+	width : 40%;
+}
+
+.select-70 select{
+	width : 70%;
+}
+
+/* Estilização page visu user */
+
+.box-atualizar-usuario{
+	border : 0px solid black;
+	height : 300px;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.title-atualizar-usuario{
+	border : 0px solid black;
+	width : 100%;
+	height : 80px;
+	color : #fff;
+	font-size : 20px;
+	padding : 2%;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+}
+
+.box-btn-atualizar-usuario input[type=submit]{
+	border : 0px solid black;
+	width : 20%;
+	height : 40px;
+	margin : 1% 40% 0 40%; 
+	color : #fff;
+	-webkit-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	-moz-box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	box-shadow: -7px 10px 29px -1px rgba(0,0,0,0.21);
+	font-size : 16px;
+}
+
+/* Telefones em paisagem e abaixo */
+
+ 
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 767px) {
+    .colunas{
+		font-size : 15px;
+		height : 100px;
+	}
+	.conteudo{
+		height : 350px;
+	}
+	.iconechamados img{
+		margin-top : -6%;
+		width : 70px;
+		height : 70px;
+	}
+	.num{
+		font-size : 30px;
+	}
+	
+}
+ 
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	.colunas{
+		font-size : 18px;
+		height : 120px;
+	}
+	.conteudo{
+		height : 480px;
+	}
+	.iconechamados img{
+		margin-top : -4%;
+		width : 80px;
+		height : 80px;
+	}
+	.num{
+		font-size : 35px;
+	}
+	
+	/* Abrir Chamados */	
+}
+
+/* Desktop médio */
+@media (min-width: 980px) and (max-width: 1199px){
+	
+	.colunas{
+		font-size : 18px;
+		height : 130px;
+	}
+	.conteudo{
+		height : 500px;
+	}
+	.iconechamados img{
+		margin-top : -4%;
+	}
+	.num{
+		font-size : 35px;
+	}
+	
+	/* Abrir Chamados */
+
+	.coluna-abrirchamados{
+		width : 50%;
+	}
+	.coluna-left{
+		margin : 0;
+	}
+	.coluna-right{
+		margin : 0;
+	}
+	.form-abrirchamados p{
+		font-size : 16px;
+	}
+	.title-abrir{
+		height : 70px;
+	}
+	.title-abrir p {
+		font-size : 20px;
+	}
+	
+}
+ 
+/* Desktop grande */
+@media (min-width: 1200px) {
+	
+	/* Meus Chamados */
+	
+	.colunas{
+		font-size : 22px;
+	}
+	.conteudo{
+		height : 550px;
+	}
+	.iconechamados img{
+		margin-top : -4%;
+		width : 90px;
+		height : 90px;
+	}
+	.num{
+		font-size : 40px;
+	}
+	
+}
+
